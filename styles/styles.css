@@ -1,0 +1,198 @@
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --font-primary: "Outfit", sans-serif;
+
+  --color-primary-soft-blue: hsl(215, 51%, 70%);
+  --color-primary-cyan: hsl(178, 100%, 50%);
+  --color-neutral-very-dark-blue-main: hsl(217, 54%, 11%);
+  --color-neutral-very-dark-blue-card: hsl(216, 50%, 16%);
+  --color-neutral-very-dark-blue-line: hsl(215, 32%, 27%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-shadow: hsla(0, 0%, 0%, 0.1);
+
+  --transition: all 0.2s;
+}
+
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-neutral-very-dark-blue-main);
+  color: var(--color-primary-soft-blue);
+  font-family: var(--font-primary);
+  padding: 0 2.4rem;
+  font-weight: 300;
+  line-height: 1.6;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: var(--font-primary);
+  margin-top: 0;
+}
+
+/* Styles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.wrapper {
+  margin: 6.2rem 0;
+}
+
+.card {
+  padding: 2.4rem;
+  background-color: var(--color-neutral-very-dark-blue-card);
+  border-radius: 1.5rem;
+  max-width: 32.7rem;
+  box-shadow: 0 25px 50px 0 var(--color-shadow);
+}
+
+.card__image {
+  position: relative;
+  margin-bottom: 2.4rem;
+}
+
+.card__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card__image .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-primary-cyan);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: var(--transition);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card__image .icon-view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4.8rem;
+  height: 4.8rem;
+  opacity: 0;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.card__image:hover .overlay {
+  opacity: .5;
+}
+
+.card__image:hover .icon-view {
+  opacity: 1;
+}
+
+.card__info {
+  margin-bottom: 1.6rem;
+}
+
+.card__info .name {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  color: var(--color-neutral-white);
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.card__info .name:hover {
+  color: var(--color-primary-cyan);
+}
+
+.card__info .desc {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.card__info .transaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction .transaction__item .icon {
+  margin-right: 7px;
+}
+
+.transaction .transaction__item .icon-ethereum {
+  width: 1.1rem;
+  height: 1.8rem;
+}
+
+.transaction .transaction__item .icon-clock {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.transaction .transaction__item {
+  display: flex;
+  align-items: center;
+}
+
+.transaction .transaction__item .coin {
+  color: var(--color-primary-cyan);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.transaction .transaction__item .date {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card__footer {
+  border-top: 1px solid var(--color-neutral-very-dark-blue-line);
+  padding-top: 1.6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.card__footer img {
+  width: 3.3rem;
+  height: 3.3rem;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin-right: 1.6rem;
+}
+
+.card__footer .author {
+  font-size: 1.5rem;
+}
+
+.card__footer .author span {
+  color: var(--color-neutral-white);
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 35rem;
+  }
+}

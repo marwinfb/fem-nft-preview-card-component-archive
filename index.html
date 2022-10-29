@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <main class="wrapper">
+    <article class="card">
+      <section class="card__image">
+        <img src="/images/image-equilibrium.jpg" alt="">
+        <div class="overlay"></div>
+        <a href="">
+          <svg class="icon-view">
+            <use xlink:href="./images/sprite.svg#icon-view"></use>
+          </svg>
+        </a>
+      </section>
+      <section class="card__info">
+        <h3 class="name">Equilibrium #3429</h3>
+        <p class="desc">Our Equilibrium collection promotes balance and calm.</p>
+        <ul class="transaction">
+          <li class="transaction__item">
+            <svg class="icon icon-ethereum">
+              <use xlink:href="./images/sprite.svg#icon-ethereum"></use>
+            </svg>
+            <span class="coin">0.041 ETH</span>
+          </li>
+          <li class="transaction__item">
+            <svg class="icon icon-clock">
+              <use xlink:href="./images/sprite.svg#icon-clock"></use>
+            </svg>
+            <span class="date">3 days left</span>
+          </li>
+        </ul>
+      </section>
+      <footer class="card__footer">
+        <img src="images/image-avatar.png" alt="">
+        <p class="author">Creation of <span>Jules Wyvern</span></p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,157 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M500.254 120.892c-221.791-0-401.589 179.797-401.589 401.589s179.797 401.589 401.589 401.589v0c221.791 0 401.589-179.797 401.589-401.589s-179.797-401.589-401.589-401.589v0zM660.902 562.658h-160.648c-22.189 0-40.177-17.988-40.177-40.177v0-160.648c0-22.189 17.988-40.177 40.177-40.177s40.177 17.988 40.177 40.177v-0 120.471h120.471c22.189 0 40.177 17.988 40.177 40.177s-17.988 40.177-40.177 40.177h0z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(139, 172, 217)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "icon-clock"
+        ],
+        "colorPermutations": {
+          "139172217125524812552552551": [
+            {
+              "f": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(139, 172, 217)"
+        }
+      ],
+      "properties": {
+        "order": 2,
+        "id": 2,
+        "name": "icon-clock",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M625.778 581.177l-312.889 442.823-312.889-442.823 312.889 185.628 312.889-185.572zM312.889 0l312.661 521.614-312.661 185.515-312.889-185.458 312.889-521.671z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(0, 255, 248)"
+          }
+        ],
+        "width": 626,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "icon-ethereum"
+        ],
+        "colorPermutations": {
+          "139172217125524812552552551": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(0, 255, 248)"
+        }
+      ],
+      "properties": {
+        "order": 3,
+        "id": 1,
+        "name": "icon-ethereum",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 192c-213.333 0-395.52 132.693-469.333 320 73.813 187.307 256 320 469.333 320 213.547 0 395.52-132.693 469.333-320-73.813-187.307-255.787-320-469.333-320zM512 725.333c-117.76 0-213.333-95.573-213.333-213.333s95.573-213.333 213.333-213.333 213.333 95.573 213.333 213.333-95.573 213.333-213.333 213.333zM512 384c-70.613 0-128 57.387-128 128s57.387 128 128 128 128-57.387 128-128-57.387-128-128-128z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "icon-view"
+        ],
+        "colorPermutations": {
+          "139172217125524812552552551": [
+            {
+              "f": 2
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 4,
+        "id": 0,
+        "name": "icon-view",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 2
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}
