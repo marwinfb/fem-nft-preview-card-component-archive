@@ -46,6 +46,16 @@ h6 {
   margin-top: 0;
 }
 
+.link{
+  color: var(--color-neutral-white);
+  transition: var(--transition);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-primary-cyan);
+}
+
 /* Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .wrapper {
@@ -114,15 +124,10 @@ h6 {
 .card__info .name {
   font-size: 2.2rem;
   line-height: 2.8rem;
-  color: var(--color-neutral-white);
   margin-bottom: 1.2rem;
+  color: var(--color-neutral-white);
   cursor: pointer;
   display: inline-block;
-  transition: var(--transition);
-}
-
-.card__info .name:hover {
-  color: var(--color-primary-cyan);
 }
 
 .card__info .desc {
